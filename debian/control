@@ -1,0 +1,16 @@
+Source: apt-is-aptss
+Section: utils
+Priority: optional
+Maintainer: shenmo <shenmo@spark-app.store>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://gitee.com/GXDE-OS/apt-is-aptss
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/apt-is-aptss.git
+#Vcs-Browser: https://salsa.debian.org/debian/apt-is-aptss
+
+Package: apt-is-aptss
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},spark-store | aptss
+Description: apt is aptss
